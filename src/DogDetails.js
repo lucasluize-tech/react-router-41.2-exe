@@ -20,6 +20,7 @@ const DogDetails = ({ dogs }) => {
 
   const handleAdopt = () => {
     alert(`You have Adopted ${dog[0].name}`);
+    history.push("/dogs");
   };
 
   return (
