@@ -1,0 +1,9 @@
+.dogPhoto {
+  height: 200px;
+  width: 200px;
+}
+
+.dogsContainer {
+  display: flex;
+  flex-direction: column;
+}
