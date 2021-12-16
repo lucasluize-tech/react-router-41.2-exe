@@ -1,0 +1,2 @@
+1. Having a Progblem with passing '#color' as parameter.
+it will not take me to the route /colors/#color
