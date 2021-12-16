@@ -9,7 +9,7 @@ const DogList = ({ dogs }) => {
       {dogList.map((dog) => (
         <li key={dog.name}>
           <NavLink to={`/dogs/${dog.name}`}>
-            <img src={dog.src} className='dogPhoto rounded' />
+            <img src={dog.src} alt={dog.name} className='dogPhoto rounded' />
           </NavLink>
         </li>
       ))}

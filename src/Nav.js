@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 const Nav = () => {
   return (
     <nav className='navbar'>
+      <NavLink to='/colors'>Color Factory</NavLink>
       <NavLink to='/dogs'>All Dogs</NavLink>
       <NavLink to='/dogs/Whiskey'>Whiskey</NavLink>
       <NavLink to='/dogs/Duke'>Duke</NavLink>
